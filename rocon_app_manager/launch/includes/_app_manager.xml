@@ -10,7 +10,7 @@
   <arg name="robot_icon" default="$(find rocon_app_manager)/icons/turtlebot.png"/>
 
   <!-- **************************** App Manager ******************************** -->
-  <node pkg="rocon_app_manager" type="rapp_manager.py" name="rapp_manager">
+  <node pkg="rocon_app_manager" type="rapp_manager.py" name="app_manager">
     <rosparam command="load" file="$(find rocon_app_manager)/param/app_manager_defaults.yaml" />
     <!--  I would like to use args in rosparam tags : https://github.com/ros/ros_comm/pull/218 for alt. param list cfg -->
     <!--  <rosparam param="rapp_lists" subst_value="True">[ $(find rocon_apps)/apps.list ]</rosparam> -->
