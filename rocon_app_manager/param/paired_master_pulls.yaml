@@ -37,4 +37,3 @@ default_pulls:
         name: .*app_list
         node: None
         type: publisher
-        
